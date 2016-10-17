@@ -1,0 +1,73 @@
+/*   
+Theme Name: Reedbuck
+Theme URI: reedbuck.com
+Description: bootstrap 3 template
+Author: Yuri Yanin
+Author URI: reedbuck.com
+Version: 1.0
+.
+basic reebuck theme
+.
+*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900,700);
+* { 
+    font-family: Lato, Open Sans, Arial;
+}
+
+.header {
+    background-color: #fdc75b;
+}
+
+.header_logo img{
+    width: 200px;
+    padding: 10px;
+}
+
+.top_header {
+    
+}
+
+.head_nav_menu {
+    float: right;
+    margin-top: 15px;
+}
+
+.head_nav_menu ul li{
+    float: left;
+    display: table;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.head_nav_menu ul li a{
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px gray;
+}
+
+.head_nav_menu ul li a:hover{
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.head_nav_menu ul li .dashicons {
+    display: block;
+}
+
+.header_menu_box {
+    margin-top: 5px;
+}
+
+.desctop__text {
+    position: absolute;
+    top: 0;
+    background-color: rgba(240, 248, 255, 0.2);
+    border: 0px solid black;
+    left: 0;
+    color: #2E8539;
+    padding: 0!important;
+    resize: none;
+    overflow: hidden;
+    outline: none;
+}
+
