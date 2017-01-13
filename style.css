@@ -1,9 +1,9 @@
 /*   
 Theme Name: Reedbuck
-Theme URI: reedbuck.com
+Theme URI: reedbuck.ru
 Description: bootstrap 3 template
 Author: Yuri Yanin
-Author URI: reedbuck.com
+Author URI: reedbuck.ru
 Version: 1.0
 .
 basic reebuck theme
@@ -14,17 +14,30 @@ basic reebuck theme
     font-family: Lato, Open Sans, Arial;
 }
 
+
+/*---ОБЩИЕ ГРУППЫ-----*/
+
+.text-center {
+    text-align: center;
+}
+
+/*---ОБЩИЕ ГРУППЫ-----*/
+/*---ШАПКА-----*/
+
+header {
+    height: 100px;
+}
+
 .header {
-    background-color: #fdc75b;
+    background-color: #2a80b9;
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
 }
 
 .header_logo img{
     width: 200px;
     padding: 10px;
-}
-
-.top_header {
-    
 }
 
 .head_nav_menu {
@@ -42,7 +55,7 @@ basic reebuck theme
 .head_nav_menu ul li a{
     color: white;
     text-decoration: none;
-    text-shadow: 2px 2px gray;
+    text-shadow: 2px 2px black;
 }
 
 .head_nav_menu ul li a:hover{
@@ -58,16 +71,11 @@ basic reebuck theme
     margin-top: 5px;
 }
 
-.desctop__text {
-    position: absolute;
-    top: 0;
-    background-color: rgba(240, 248, 255, 0.2);
-    border: 0px solid black;
-    left: 0;
-    color: #2E8539;
-    padding: 0!important;
-    resize: none;
-    overflow: hidden;
-    outline: none;
-}
+/*---ШАПКА-----*/
+/*---МЫ ПРЕДЛАГАЕМ-----*/
 
+.our_services .title {
+    font-size: 42px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
