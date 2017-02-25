@@ -5,9 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<title><?php wp_title('«', true, 'right'); ?> <?php bloginfo('name'); ?></title>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="/wp-content/themes/reedbuck/wow-animation/animate.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.js"></script>
+	
+    <?php get_header( 'list' ); ?>
     <?php wp_head(); ?>
     
 </head>
