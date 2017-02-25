@@ -17,7 +17,9 @@
 
     <div class="our_container">
 <header>
+    
     <div class="header">
+        <section class="top-info-box"></section>
         <div class="container">
             <div class="top_header row">
                 <div class="col-xs-12 col-sm-12 col-md-3">
