@@ -29,12 +29,29 @@ header {
                 }
                 .dashicons {
                     display: block;
+                    margin-right: 0px;
                 }
             }
         }
         .header_menu_box {
             margin-top: 5px;
         }
-    }    
+    } 
+    .fixed-header {
+        
+        .header_logo img {
+            transition: all .3s ease-out;
+            width: 360px;
+            padding: 0px;
+        }
+        .head_nav_menu {
+            transition: all .3s ease-out;
+            margin-top: 0px;
+            ul li .dashicons{
+                transition: all .3s ease-out;
+                display: none;
+            }
+        }
+    }
 }
 

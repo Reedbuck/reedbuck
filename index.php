@@ -7,7 +7,7 @@
 <section class="our_services">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center"><h1 class="title">МЫ ПРЕДЛАГАЕМ</h1></div>
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center"><span class="title">МЫ ПРЕДЛАГАЕМ</span></div>
         </div>
         <div class="row sentence">
             <div class="col-xs-4 col-sm-4 col-md-4 sentence-box">
@@ -18,7 +18,7 @@
             <script>
                 $('.our_services .sentence .icon-circle-down').click(function(){
                     
-                    $(this).parent.css('height', '220')
+                    $(".our_services .sentence .content").css('height', '220');
                 });
             </script>
             <div class="col-xs-4 col-sm-4 col-md-4 sentence-box">
@@ -35,8 +35,47 @@
 <section class="portfolio">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-12 text-center"><h1>ПОРТФОЛИО</h1></div>
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center"><span class="title">НЕДАВНО РАЗРАБОТАНЫ</span></div>
         </div>
+    
+    
+        <div class="rb_carousel">
+            <div class="rb_carousel-control">
+                <div class="rb_carousel-button-left"> лево </div> 
+                <div class="rb_carousel-button-right"> право </div> 
+            </div>
+            <div class="rb_carousel-wrapper">
+                <ul class="rb_carousel-items"> 
+                    <li class="rb_carousel-block">
+                        <img src="<?php bloginfo('template_url'); ?>/css/less/home/images/port-clash.jpg" alt="" />
+                    </li>
+                    <li class="rb_carousel-block">
+                        <img src="<?php bloginfo('template_url'); ?>/css/less/home/images/port-bulk.jpg" alt="" />
+                    </li>
+                    <li class="rb_carousel-block">
+                        <img src="<?php bloginfo('template_url'); ?>/css/less/home/images/port-welt.jpg" alt="" />
+                    </li>
+                    <li class="rb_carousel-block">
+                        <img src="<?php bloginfo('template_url'); ?>/css/less/home/images/port-clash.jpg" alt="" />
+                    </li>
+                    <li class="rb_carousel-block">
+                        <img src="<?php bloginfo('template_url'); ?>/css/less/home/images/port-clash.jpg" alt="" />
+                    </li>
+                    <li class="rb_carousel-block">
+                        <img src="<?php bloginfo('template_url'); ?>/css/less/home/images/port-bulk.jpg" alt="" />
+                    </li>
+                    <li class="rb_carousel-block">
+                        <img src="<?php bloginfo('template_url'); ?>/css/less/home/images/port-welt.jpg" alt="" />
+                    </li>
+                    <li class="rb_carousel-block">
+                        <img src="<?php bloginfo('template_url'); ?>/css/less/home/images/port-clash.jpg" alt="" />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="rb_slider">
+        <div class=""></div>
     </div>
 </section>
 
