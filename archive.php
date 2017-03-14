@@ -53,8 +53,7 @@ get_header(); ?>
                                             </div>
                                         </div>
                                         <div class="col-md-12 tovar_box_content">
-                                            <span class="old_price"><?php echo get_field( "old_price" ) ?></span>
-                                            <span class="new_price"><?php echo get_field( "new_price" ) ?></span>
+                                           
                                         </div>
                                         <div class="col-md-12 top-info-content-botton">
                                             <a class="eModal-1"><div class="button-podr">Быстрый заказ</div></a>
